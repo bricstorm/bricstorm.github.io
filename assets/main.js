@@ -1,1 +1,0 @@
-console.log('BRIC$TORM site loaded.');
