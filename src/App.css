@@ -1,0 +1,27 @@
+/* App.css - Estilos específicos do componente App */
+
+.App {
+  min-height: 100vh;
+  background: var(--storm-dark);
+  color: white;
+}
+
+/* Smooth scrolling para toda a aplicação */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo para links de navegação */
+.nav-link {
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--brics-gold);
+}
+
+/* Container principal */
+.main-container {
+  position: relative;
+  overflow-x: hidden;
+}
