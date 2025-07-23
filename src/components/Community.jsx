@@ -6,13 +6,13 @@ export default function Community() {
     {
       name: "Twitter",
       icon: <Twitter size={24} />,
-      url: "https://x.com/BBricstorm",
+      url: "https://twitter.com/bricstorm",
       description: "Siga-nos para atualizações em tempo real"
     },
     {
       name: "Telegram",
       icon: <Send size={24} />,
-      url: "https://t.me/BRICSTORM_OFFICIAL",
+      url: "https://t.me/bricstorm",
       description: "Junte-se à nossa comunidade global"
     },
     {
@@ -22,18 +22,11 @@ export default function Community() {
       description: "Participe das discussões da comunidade"
     },
     {
-      name: "Tiktok",
+      name: "Reddit",
       icon: <Users size={24} />,
-      url: "https://www.tiktok.com/@bricstorm",
-      description: "Compartilhe ideias e novidades"
-    },
-    {
-      name: "Youtube",
-      icon: <Users size={24} />,
-      url: "https://www.youtube.com/@BRICSTORM",
+      url: "https://reddit.com/r/bricstorm",
       description: "Compartilhe ideias e novidades"
     }
-
   ]
 
   const stats = [
@@ -121,12 +114,12 @@ export default function Community() {
             Faça Parte da Revolução
           </h3>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-            A revolução meme financeira multipolar precisa de você. Junte-se à nossa 
+            A revolução financeira multipolar precisa de você. Junte-se à nossa 
             comunidade e ajude a construir o futuro do sistema financeiro global.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://t.me/BRICSTORM_OFFICIAL"
+              href="https://t.me/bricstorm"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
