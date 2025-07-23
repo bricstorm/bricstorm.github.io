@@ -8,22 +8,22 @@ export default function Footer() {
     {
       name: "Twitter",
       icon: <Twitter size={20} />,
-      url: "https://twitter.com/bricstorm"
+      url: "https://x.com/BBricstorm"
     },
     {
       name: "Telegram",
       icon: <Send size={20} />,
-      url: "https://t.me/bricstorm"
+      url: "https://t.me/BRICSTORM_OFFICIAL"
     },
     {
-      name: "Discord",
+      name: "Youtube",
       icon: <MessageCircle size={20} />,
-      url: "https://discord.gg/bricstorm"
+      url: "https://www.youtube.com/@BRICSTORM"
     },
     {
-      name: "Reddit",
+      name: "Tiktok",
       icon: <Users size={20} />,
-      url: "https://reddit.com/r/bricstorm"
+      url: "https://www.tiktok.com/@bricstorm"
     }
   ]
 

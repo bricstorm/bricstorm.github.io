@@ -13,7 +13,7 @@ export default function TokenSpecs() {
       icon: <TrendingUp className="text-brics-gold" size={32} />,
       title: "Taxa de Transação",
       value: "1%",
-      description: "Para projetos sociais BRICS"
+      description: "Redirecionada para projetos de impacto social."
     },
     {
       icon: <Shield className="text-brics-gold" size={32} />,
@@ -25,7 +25,7 @@ export default function TokenSpecs() {
       icon: <Users className="text-brics-gold" size={32} />,
       title: "Comunidade",
       value: "Global",
-      description: "Países BRICS unidos"
+      description: "BRIC$TORM"
     }
   ]
 

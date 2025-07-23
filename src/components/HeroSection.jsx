@@ -37,7 +37,7 @@ export default function HeroSection() {
         <p className="text-lg sm:text-xl text-gray-400 mb-8 max-w-3xl mx-auto">
           Resistência Multipolar. A revolução financeira que quebra as barreiras do
           sistema tradicional. Junte-se à tempestade que está transformando o mundo das
-          criptomoedas.
+          criptomoedas memes.
         </p>
 
         {/* Stats */}

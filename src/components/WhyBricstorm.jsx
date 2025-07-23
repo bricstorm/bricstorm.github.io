@@ -11,7 +11,7 @@ export default function WhyBricstorm() {
     {
       icon: <Heart className="text-brics-gold" size={32} />,
       title: "Impacto Social",
-      description: "1% de cada transação é destinada a projetos sociais nos países BRICS"
+      description: "1% de cada transação é destinada para projetos de impacto social."
     },
     {
       icon: <Zap className="text-brics-gold" size={32} />,
@@ -43,8 +43,8 @@ export default function WhyBricstorm() {
             <span className="gradient-text">Por que BRIC$TORM?</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Mais que uma criptomoeda, somos um movimento pela transformação 
-            do sistema financeiro global através da união dos países BRICS
+            BRIC$TORM é mais do que apenas uma memecoin-é um movimento.Apoiados por um contrato sólido,liquidez garantida 
+            e um roeiro claro, estamos aqui para invadir o mundo das criptomoedas com uma nova visão.
           </p>
         </div>
 
@@ -71,9 +71,9 @@ export default function WhyBricstorm() {
                 A Revolução Financeira Multipolar
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed max-w-4xl mx-auto">
-                BRIC$TORM representa mais que uma simples criptomoeda. Somos o símbolo digital 
-                da resistência ao sistema financeiro tradicional, unindo as forças econômicas 
-                emergentes dos países BRICS em uma nova era de prosperidade compartilhada.
+                BRIC$TORM, a memecoin revolucionária inspirada na força e na unidade dos 
+                países BRICS. Construído na Binance Smart Chain(BEP-20), o BRIC$TORM se 
+                destaca como um síbolo de resistência à centralização financeira.
               </p>
             </div>
             
@@ -92,7 +92,7 @@ export default function WhyBricstorm() {
                   Visão
                 </h4>
                 <p className="text-gray-300">
-                  Tornar-se a principal criptomoeda do bloco BRICS, facilitando 
+                  Tornar-se a principal criptomoeda meme do bloco BRICS, facilitando 
                   transações e investimentos entre Brasil, Rússia, Índia, China e África do Sul.
                 </p>
               </div>

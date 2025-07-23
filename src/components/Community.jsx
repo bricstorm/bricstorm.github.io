@@ -6,25 +6,25 @@ export default function Community() {
     {
       name: "Twitter",
       icon: <Twitter size={24} />,
-      url: "https://twitter.com/bricstorm",
+      url: "https://x.com/BBricstorm",
       description: "Siga-nos para atualizações em tempo real"
     },
     {
       name: "Telegram",
       icon: <Send size={24} />,
-      url: "https://t.me/bricstorm",
+      url: "https://t.me/BRICSTORM_OFFICIAL",
       description: "Junte-se à nossa comunidade global"
     },
     {
-      name: "Discord",
+      name: "Youtube",
       icon: <MessageCircle size={24} />,
-      url: "https://discord.gg/bricstorm",
+      url: "https://www.youtube.com/@BRICSTORM",
       description: "Participe das discussões da comunidade"
     },
     {
-      name: "Reddit",
+      name: "Tiktok",
       icon: <Users size={24} />,
-      url: "https://reddit.com/r/bricstorm",
+      url: "https://www.tiktok.com/@bricstorm",
       description: "Compartilhe ideias e novidades"
     }
   ]
@@ -119,7 +119,7 @@ export default function Community() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://t.me/bricstorm"
+              href="https://t.me/BRICSTORM_OFFICIAL"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -132,7 +132,7 @@ export default function Community() {
               rel="noopener noreferrer"
               className="btn-secondary"
             >
-              Comprar BRICS
+              Comprar BRIC$TORM
             </a>
           </div>
         </div>

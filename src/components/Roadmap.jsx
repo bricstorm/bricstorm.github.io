@@ -122,7 +122,7 @@ export default function Roadmap() {
             <p className="text-gray-300 mb-6">
               Cada fase representa um passo importante na construção do novo sistema 
               financeiro multipolar. Estamos atualmente na Fase 2, expandindo nossa 
-              presença nos países BRICS.
+              presença no mundo crypto.
             </p>
             <div className="flex justify-center">
               <a
