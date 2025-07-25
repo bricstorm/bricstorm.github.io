@@ -1,0 +1,11 @@
+{
+    "name": "BRIC$TORM",
+    "symbol": "BRICS",
+    "type": "BEP20",
+    "decimals": 18,
+    "description": "Token da revolu\u00e7\u00e3o financeira multipolar. 1% de cada transa\u00e7\u00e3o contribui para projetos sociais nos pa\u00edses BRICS.",
+    "website": "https://bricstorm.github.io",
+    "explorer": "https://bscscan.com/token/0x29c20ac9027B27f8Ee6237DC878C642821463ef9",
+    "status": "active",
+    "id": "0x29c20ac9027B27f8Ee6237DC878C642821463ef9"
+}
