@@ -1,6 +1,6 @@
 
 import React from "react";
-import heroBrics from "../assets/storm.png";
+import heroBrics from "../assets/storm_65.png";
 
 export default function WhyBricstorm() {
   return (
