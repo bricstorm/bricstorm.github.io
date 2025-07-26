@@ -1,6 +1,6 @@
 
 import React from "react";
-import banner from "../assets/banner.png";
+import banner from "../assets/the_fed_is_panic.mp4";
 
 export default function HeroSection() {
   return (
