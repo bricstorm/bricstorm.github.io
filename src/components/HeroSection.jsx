@@ -1,6 +1,6 @@
 
 import React from "react";
-import banner from "../assets/the_fed_is_panic.mp4";
+import banner from "../assets/banner.png";
 
 export default function HeroSection() {
   return (
@@ -25,13 +25,13 @@ export default function HeroSection() {
         </p>
         <div className="flex justify-center gap-6">
           <a
-            href="#"
+            href="https://pancakeswap.finance/swap?outputCurrency=0x29c20ac9027B27f8Ee6237DC878C642821463ef9"
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded-lg shadow-lg transition-all"
           >
             COMPRAR AGORA
           </a>
           <a
-            href="#"
+            href="https://www.geckoterminal.com/bsc/pools/0xe1f955ddc4cb3a932747a074c55cd4a0d6874cb7"
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all"
           >
             VER GRÁFICO

@@ -1,6 +1,6 @@
 
 import React from "react";
-import heroBrics from "../assets/capa_Twitter_BRICSTORM_1751981790877.png";
+import heroBrics from "../assets/the_fed_is_panic.mp4";
 
 export default function WhyBricstorm() {
   return (
