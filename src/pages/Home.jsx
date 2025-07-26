@@ -6,6 +6,7 @@ import WhyBricstorm from '../components/WhyBricstorm'
 import Roadmap from '../components/Roadmap'
 import Community from '../components/Community'
 import Footer from '../components/Footer'
+import CertificateSection from '../components/CertificateSection'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <WhyBricstorm />
         <Roadmap />
         <Community />
+        <CertificateSection />
       </main>
       <Footer />
     </div>
