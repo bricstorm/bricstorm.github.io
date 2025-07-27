@@ -71,7 +71,7 @@ export default function CertificateSection() {
         {/* README opcional */}
         <div className="mt-12">
           <a
-            href="src/assets/README.pdf"
+            href="assets/README.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline text-sm hover:text-yellow-400"
