@@ -1,4 +1,3 @@
-
 import React from "react";
 
 export default function CertificateSection() {
@@ -23,6 +22,12 @@ export default function CertificateSection() {
           Transparência e confiança: a base da tempestade.
         </p>
       </div>
+      <div>
+        <h3>🔓 Token Renunciado</h3>
+        <p>Contrato sem dono: <code>0x0000000000000000000000000000000000000000</code></p>
+        <img src="assets/owner-renounced.png" />
+      </div>
+      
     </section>
   );
 }
