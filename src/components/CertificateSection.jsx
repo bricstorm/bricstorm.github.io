@@ -20,7 +20,7 @@ export default function CertificateSection() {
           <div className="bg-gray-900 p-6 rounded-xl shadow-lg flex-1">
             <h3 className="text-xl font-bold text-green-400 mb-4">🔒 Liquidez Bloqueada</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Travada via Mudra até 10/07/2025.
+              Travada via Mudra até 10/07/2026.
             </p>
             <a
               href="https://mudra.website/?certificate=yes&type=0&lp=0xe1f955ddc4cb3a932747a074c55cd4a0d6874cb7"
@@ -71,7 +71,7 @@ export default function CertificateSection() {
         {/* README opcional */}
         <div className="mt-12">
           <a
-            href="https://github.com/BRICSTORM/bricstorm.github.io#readme"
+            href="src/assets/README.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline text-sm hover:text-yellow-400"
