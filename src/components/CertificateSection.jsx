@@ -2,83 +2,66 @@ import React from "react";
 
 export default function CertificateSection() {
   return (
-    <section
-      id="certificados"
-      className="py-20 px-4 bg-black text-white text-center border-t border-gray-800"
-    >
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-12 drop-shadow">
-          CERTIFICADOS DE TRANSPARÊNCIA
-        </h2>
-        <p className="text-lg md:text-xl text-gray-300 mb-12">
-          Garantimos total segurança e compromisso com a comunidade. A liquidez da BRIC$TORM foi travada publicamente.
+    <section className="bg-black text-white py-16 px-4 md:px-16 text-center">
+      <h2 className="text-3xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-red-500">
+        🔐 Certificados de Segurança
+      </h2>
+
+      <div className="max-w-4xl mx-auto text-base md:text-lg leading-relaxed">
+        <p className="mb-4">
+          A liquidez da BRIC$TORM foi oficialmente{" "}
+          <strong className="text-blue-400">bloqueada via Mudra</strong> até{" "}
+          <strong className="text-red-400">10 de julho de 2025</strong>. A
+          transparência é prioridade!
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-stretch gap-6 text-left">
-
-          {/* Liquidez Bloqueada */}
-          <div className="bg-gray-900 p-6 rounded-xl shadow-lg flex-1">
-            <h3 className="text-xl font-bold text-green-400 mb-4">🔒 Liquidez Bloqueada</h3>
-            <p className="text-sm text-gray-300 mb-4">
-              Travada via Mudra até 10/07/2026.
-            </p>
-            <a
-              href="https://mudra.website/?certificate=yes&type=0&lp=0xe1f955ddc4cb3a932747a074c55cd4a0d6874cb7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition-all"
-            >
-              Ver Certificado
-            </a>
-          </div>
-
-          {/* Token Renunciado */}
-          <div className="bg-gray-900 p-6 rounded-xl shadow-lg flex-1">
-            <h3 className="text-xl font-bold text-yellow-400 mb-4">🔓 Token Renunciado</h3>
-            <p className="text-sm text-gray-300 mb-2">
-              Contrato sem dono:
-              <code className="block mt-1 text-sm text-gray-400">0x0000000000000000000000000000000000000000</code>
-            </p>
-            <img
-              src="/src/assets/owner-renounced.png"
-              alt="Owner Renounced"
-              className="mt-4 w-full rounded-lg"
-            />
-          </div>
-
-          {/* Supply Bloqueado */}
-          <div className="bg-gray-900 p-6 rounded-xl shadow-lg flex-1">
-            <h3 className="text-xl font-bold text-blue-400 mb-4">🌐 Supply Bloqueado</h3>
-            <p className="text-sm text-gray-300 mb-2">
-              297.950.400 BRICS até 16/07/2026
-            </p>
-            <a
-              href="https://mudra.website"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all"
-            >
-              Ver no Mudra
-            </a>
-            <img
-              src="/src/assets/supply-bloqueado.png"
-              alt="Supply Bloqueado"
-              className="mt-4 w-full rounded-lg"
-            />
-          </div>
-        </div>
-
-        {/* README opcional */}
-        <div className="mt-12">
+        <p className="mb-4">
+          🔗 <strong>Certificado de Liquidez:</strong>{" "}
           <a
-            href="assets/README.pdf"
+            href="https://mudra.website/?certificate=yes&type=0&lp=0xe1f955ddc4cb3a932747a074c55cd4a0d6874cb7"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white underline text-sm hover:text-yellow-400"
+            className="text-blue-300 underline hover:text-blue-500"
           >
-            📘 Ver README do Projeto
+            Ver Certificado
           </a>
-        </div>
+        </p>
+
+        <p className="mb-4">
+          💠 <strong>Hash da transação (30% público):</strong>{" "}
+          <a
+            href="https://bscscan.com/tx/0x8a84ebfe1e1e03a73ec678823768bfc4f7bcb29c13f5dd14f7ea7d60ea87b82c"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-300 underline hover:text-green-500"
+          >
+            0x8a84...b82c ↗
+          </a>
+        </p>
+
+        <p className="mb-4">
+          📝 <strong>Contrato do Token:</strong>{" "}
+          <a
+            href="https://bscscan.com/token/0x29c20ac9027B27f8Ee6237DC878C642821463ef9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-yellow-300 underline hover:text-yellow-500"
+          >
+            0x29c2...3ef9
+          </a>
+        </p>
+
+        <p>
+          💧 <strong>Contrato da Liquidez:</strong>{" "}
+          <a
+            href="https://bscscan.com/address/0xe1f955ddc4cb3a932747a074c55cd4a0d6874cb7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 underline hover:text-purple-500"
+          >
+            0xe1f9...4cb7
+          </a>
+        </p>
       </div>
     </section>
   );
