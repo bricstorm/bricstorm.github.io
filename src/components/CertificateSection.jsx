@@ -30,7 +30,7 @@ export default function CertificateSection() {
         <p className="mb-4">
           💠 <strong>Hash da transação (30% público):</strong>{" "}
           <a
-            href="https://bscscan.com/tx/0x8a84ebfe1e1e03a73ec678823768bfc4f7bcb29c13f5dd14f7ea7d60ea87b82c"
+            href="https://bscscan.com/tx/0x8a84ebfe1e1be628e3b8f4544e0b6db8f6849cd5794b52ef21c117bdb7a67dd7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-300 underline hover:text-green-500"
