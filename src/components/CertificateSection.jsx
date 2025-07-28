@@ -11,7 +11,7 @@ export default function CertificateSection() {
         <p className="mb-4">
           A liquidez da BRIC$TORM foi oficialmente{" "}
           <strong className="text-blue-400">bloqueada via Mudra</strong> até{" "}
-          <strong className="text-red-400">10 de julho de 2025</strong>. A
+          <strong className="text-red-400">10 de julho de 2026</strong>. A
           transparência é prioridade!
         </p>
 
