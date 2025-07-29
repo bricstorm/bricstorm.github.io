@@ -62,6 +62,17 @@ export default function CertificateSection() {
             0xe1f9...4cb7
           </a>
         </p>
+        <p>
+          📄  <strong>README:</strong>{" "}
+          <a
+            href="assets/README.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 underline hover:text-purple-500"
+          >            
+          </a>
+        </p>
+
       </div>
     </section>
   );
