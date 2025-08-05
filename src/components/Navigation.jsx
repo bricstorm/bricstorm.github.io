@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import { useLanguage } from '../contexts/LanguageContext'
-import { LanguageSwitcher } from './LanguageSwitcher'
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const { t } = useLanguage()
-
+  
   const navItems = [
     { name: 'Início', href: '#hero' },
     { name: 'Token', href: '#token' },
