@@ -1,0 +1,18 @@
+{
+  "brand": "BRIC$TORM",
+  "tagline": "Multipolar meme — now on BSC + Solana",
+  "cta_bsc": "Buy on BSC",
+  "cta_sol": "Buy on Solana",
+  "cta_chart_bsc": "Chart (BSC)",
+  "cta_chart_sol": "Chart (Sol)",
+  "contracts": "Contracts",
+  "bsc_contract": "BSC Contract",
+  "sol_mint": "Solana Mint",
+  "badges": "1% social tax (BSC) • 0% tax (SOL)",
+  "links": "Links",
+  "lock": "LP Certificate (Mudra)",
+  "scan": "BscScan",
+  "socials": "Community",
+  "lang": "Language",
+  "hero_line": "Zero tax on Solana, LP auto-locked via Pump.fun when migrating to Raydium."
+}
