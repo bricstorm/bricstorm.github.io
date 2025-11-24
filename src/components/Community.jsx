@@ -132,8 +132,17 @@ export default function Community() {
               rel="noopener noreferrer"
               className="btn-secondary"
             >
-              Comprar BRIC$TORM
+              Comprar BRIC$TORM na rede BSC
             </a>
+            <a
+              href="https://pump.fun/coin/CKVuMT1Z8PUodKhWuimBpq9RqW9sLQ13Q46wdrAdFeDW"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Comprar BRIC$TORM na rede SOLANA
+            </a>
+   
           </div>
         </div>
       </div>
