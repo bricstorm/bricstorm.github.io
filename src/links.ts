@@ -13,7 +13,7 @@ export const LINKS = {
     buy:  "https://pump.fun/coin/CKVuMT1Z8PUodKhWuimBpq9RqW9sLQ13Q46wdrAdFeDW",
   },
   social: {
-    tg: "https://t.me/BRICSTORM_OFFICIAL",
+    tg: "https://t.me/BRICSTORM_OFICIAL",
     x:  "https://x.com/BBricstorm"
   }
 } as const;
