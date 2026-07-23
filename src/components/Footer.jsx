@@ -1,5 +1,6 @@
 import React from 'react'
 import { Twitter, Send, MessageCircle, Users, ExternalLink } from 'lucide-react'
+import Reveal from './Reveal'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -45,6 +46,7 @@ export default function Footer() {
   return (
     <footer className="bg-storm-gray border-t border-brics-gold/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <Reveal>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
@@ -127,6 +129,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        </Reveal>
 
         {/* Bottom Bar */}
         <div className="border-t border-brics-gold/20 mt-12 pt-8">
