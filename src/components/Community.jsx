@@ -14,7 +14,7 @@ export default function Community() {
     {
       name: "Telegram",
       icon: <Send size={24} />,
-      url: "https://t.me/BRICSTORM_OFFICIAL",
+      url: "https://t.me/BRICSTORM_OFICIAL",
       description: "Junte-se à nossa comunidade global"
     },
     {
@@ -129,7 +129,7 @@ export default function Community() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://t.me/BRICSTORM_OFFICIAL"
+                href="https://t.me/BRICSTORM_OFICIAL"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"

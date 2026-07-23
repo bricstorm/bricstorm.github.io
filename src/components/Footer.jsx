@@ -14,7 +14,7 @@ export default function Footer() {
     {
       name: "Telegram",
       icon: <Send size={20} />,
-      url: "https://t.me/BRICSTORM_OFFICIAL"
+      url: "https://t.me/BRICSTORM_OFICIAL"
     },
     {
       name: "Youtube",
