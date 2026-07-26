@@ -7,6 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        'storm-dark': '#0a0a0f',
+        'storm-gray': '#15151f',
+        'storm-light': '#1e1e2a',
+        'brics-gold': '#d4af37',
+        'accent-orange': '#ff6b35',
+        'accent-green': '#22c55e',
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -49,6 +55,9 @@ export default {
         'float': 'float 3s ease-in-out infinite',
         'glow': 'glow 2s ease-in-out infinite alternate',
         'pulse-custom': 'pulse-custom 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'gradient-shift': 'gradient-shift 6s ease infinite',
+        'drift': 'drift 25s ease-in-out infinite',
+        'ticker': 'ticker 30s linear infinite',
       },
       keyframes: {
         float: {
@@ -62,6 +71,19 @@ export default {
         'pulse-custom': {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.7' },
+        },
+        'gradient-shift': {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+        drift: {
+          '0%, 100%': { transform: 'translate(0, 0) rotate(0deg)' },
+          '33%': { transform: 'translate(30px, -20px) rotate(2deg)' },
+          '66%': { transform: 'translate(-20px, 15px) rotate(-2deg)' },
+        },
+        ticker: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
     },

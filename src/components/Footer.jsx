@@ -1,38 +1,25 @@
 import React from 'react'
 import { Twitter, Send, MessageCircle, Users, ExternalLink } from 'lucide-react'
+import Reveal from './Reveal'
+import { useLanguage } from '../i18n/LanguageContext'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+  const { t } = useLanguage()
 
   const socialLinks = [
-    {
-      name: "Twitter",
-      icon: <Twitter size={20} />,
-      url: "https://x.com/BBricstorm"
-    },
-    {
-      name: "Telegram",
-      icon: <Send size={20} />,
-      url: "https://t.me/BRICSTORM_OFFICIAL"
-    },
-    {
-      name: "Youtube",
-      icon: <MessageCircle size={20} />,
-      url: "https://www.youtube.com/@BRICSTORM"
-    },
-    {
-      name: "Tiktok",
-      icon: <Users size={20} />,
-      url: "https://www.tiktok.com/@bricstorm"
-    }
+    { name: "Twitter", icon: <Twitter size={20} />, url: "https://x.com/BBricstorm" },
+    { name: "Telegram", icon: <Send size={20} />, url: "https://t.me/BRICSTORM_OFFICIAL" },
+    { name: "Youtube", icon: <MessageCircle size={20} />, url: "https://www.youtube.com/@BRICSTORM" },
+    { name: "Tiktok", icon: <Users size={20} />, url: "https://www.tiktok.com/@bricstorm" }
   ]
 
   const quickLinks = [
-    { name: "Início", href: "#hero" },
-    { name: "Token", href: "#token" },
-    { name: "Sobre", href: "#about" },
-    { name: "Roadmap", href: "#roadmap" },
-    { name: "Comunidade", href: "#community" }
+    { name: t.nav.home, href: "#hero" },
+    { name: t.nav.token, href: "#token" },
+    { name: t.nav.about, href: "#about" },
+    { name: t.nav.roadmap, href: "#roadmap" },
+    { name: t.nav.community, href: "#community" }
   ]
 
   const scrollToSection = (href) => {
@@ -45,6 +32,7 @@ export default function Footer() {
   return (
     <footer className="bg-storm-gray border-t border-brics-gold/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <Reveal>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
@@ -52,8 +40,7 @@ export default function Footer() {
               BRIC$TORM
             </h3>
             <p className="text-gray-300 mb-6 max-w-md">
-              A revolução financeira multipolar que está transformando o sistema 
-              econômico global através da união dos países BRICS.
+              {t.footer.description}
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -74,7 +61,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-orbitron font-bold text-white mb-4">
-              Links Rápidos
+              {t.footer.quickLinksTitle}
             </h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
@@ -93,17 +80,17 @@ export default function Footer() {
           {/* Contract Info */}
           <div>
             <h4 className="text-lg font-orbitron font-bold text-white mb-4">
-              Contrato
+              {t.footer.contractTitle}
             </h4>
             <div className="space-y-4">
               <div>
-                <p className="text-gray-400 text-sm mb-2">Endereço:</p>
+                <p className="text-gray-400 text-sm mb-2">{t.footer.addressLabel}</p>
                 <p className="text-brics-gold font-mono text-xs break-all">
                   0x29c20ac9027B27f8Ee6237DC878C642821463ef9
                 </p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2">Blockchain:</p>
+                <p className="text-gray-400 text-sm mb-2">{t.footer.blockchainLabel}</p>
                 <p className="text-white">Binance Smart Chain</p>
               </div>
               <div className="flex flex-col space-y-2">
@@ -127,15 +114,16 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        </Reveal>
 
         {/* Bottom Bar */}
         <div className="border-t border-brics-gold/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} BRIC$TORM. Todos os direitos reservados.
+              © {currentYear} BRIC$TORM. {t.footer.rights}
             </p>
             <p className="text-gray-400 text-sm mt-2 md:mt-0">
-              Feito com ❤️ para a revolução multipolar
+              {t.footer.madeWith}
             </p>
           </div>
         </div>

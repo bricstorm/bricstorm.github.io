@@ -1,0 +1,301 @@
+export const translations = {
+  pt: {
+    nav: {
+      home: "Início",
+      token: "Token",
+      about: "Sobre",
+      roadmap: "Roadmap",
+      community: "Comunidade",
+    },
+    hero: {
+      badge: "Resistência Multipolar · BSC & Solana",
+      title1: "O VELHO SISTEMA",
+      title2: "ESTÁ TREMENDO",
+      subtitle1: "A TEMPESTADE",
+      subtitle2: "CHEGOU",
+      description:
+        "Resistência multipolar. A revolução financeira que quebra as barreiras do sistema tradicional. Junte-se à tempestade que está transformando o mundo das criptomoedas meme.",
+      ctaBuy: "COMPRAR AGORA",
+      ctaChart: "VER GRÁFICO",
+    },
+    why: {
+      title: "POR QUE BRIC$TORM?",
+      description:
+        "Porque não é apenas um token meme — é o símbolo da resistência multipolar. Um rugido contra o sistema financeiro controlado. Uma revolução dos BRICS rumo à descentralização.",
+    },
+    tokenSpecs: {
+      title: "Especificações do Token",
+      subtitle:
+        "Conheça os detalhes técnicos e econômicos do token BRICS, projetado para revolucionar o sistema financeiro global",
+      supplyTitle: "Supply Total",
+      supplyDesc: "BRICS tokens em circulação",
+      taxTitle: "Taxa de Transação",
+      taxDesc: "Redirecionada para projetos de impacto social.",
+      chainTitle: "Blockchain",
+      chainDesc: "Binance Smart Chain",
+      communityTitle: "Comunidade",
+      communityDesc: "BRIC$TORM",
+      contractTitle: "Contrato Inteligente",
+      contractDesc: "Token verificado na Binance Smart Chain com total transparência",
+      buyPancake: "Comprar no PancakeSwap",
+      viewBscscan: "Ver no BSCScan",
+    },
+    roadmap: {
+      title: "Roadmap",
+      subtitle:
+        "Nosso plano estratégico para revolucionar o sistema financeiro global através da união dos países BRICS",
+      phases: [
+        {
+          phase: "Fase 1",
+          title: "Lançamento",
+          status: "completed",
+          items: [
+            "Criação do token BRICS",
+            "Deploy na Binance Smart Chain",
+            "Verificação do contrato",
+            "Listagem no PancakeSwap",
+          ],
+        },
+        {
+          phase: "Fase 2",
+          title: "Expansão",
+          status: "in-progress",
+          items: [
+            "Marketing nos países BRICS",
+            "Parcerias estratégicas",
+            "Auditoria de segurança",
+            "Crescimento da comunidade",
+          ],
+        },
+        {
+          phase: "Fase 3",
+          title: "Consolidação",
+          status: "planned",
+          items: [
+            "Listagem em exchanges maiores",
+            "Aplicativo móvel",
+            "Staking e recompensas",
+            "Governança descentralizada",
+          ],
+        },
+        {
+          phase: "Fase 4",
+          title: "Revolução",
+          status: "planned",
+          items: [
+            "Ponte entre blockchains",
+            "Pagamentos internacionais",
+            "Integração com bancos BRICS",
+            "Ecossistema DeFi completo",
+          ],
+        },
+      ],
+      journeyTitle: "Jornada da Revolução",
+      journeyDesc:
+        "Cada fase representa um passo importante na construção do novo sistema financeiro multipolar. Estamos atualmente na Fase 2, expandindo nossa presença no mundo crypto.",
+      cta: "Participar da Revolução",
+    },
+    community: {
+      title: "Comunidade",
+      subtitle:
+        "Junte-se à nossa comunidade global e faça parte da revolução financeira que está transformando o mundo",
+      social: {
+        twitter: "Siga-nos para atualizações em tempo real",
+        telegram: "Junte-se à nossa comunidade global",
+        youtube: "Participe das discussões da comunidade",
+        tiktok: "Compartilhe ideias e novidades",
+      },
+      stats: {
+        membersLabel: "Membros da Comunidade",
+        membersDesc: "Crescendo diariamente",
+        countriesLabel: "Países BRICS",
+        countriesDesc: "Unidos pela revolução",
+        supportLabel: "Suporte Ativo",
+        supportDesc: "Comunidade sempre online",
+        transparencyLabel: "Transparência",
+        transparencyDesc: "Tudo é público",
+      },
+      ctaTitle: "Faça Parte da Revolução",
+      ctaDesc:
+        "A revolução financeira multipolar precisa de você. Junte-se à nossa comunidade e ajude a construir o futuro do sistema financeiro global.",
+      ctaTelegram: "Entrar no Telegram",
+      ctaBuyBsc: "Comprar BRIC$TORM na rede BSC",
+      ctaBuySolana: "Comprar BRIC$TORM na rede SOLANA",
+    },
+    footer: {
+      description:
+        "A revolução financeira multipolar que está transformando o sistema econômico global através da união dos países BRICS.",
+      quickLinksTitle: "Links Rápidos",
+      contractTitle: "Contrato",
+      addressLabel: "Endereço:",
+      blockchainLabel: "Blockchain:",
+      rights: "Todos os direitos reservados.",
+      madeWith: "Feito com ❤️ para a revolução multipolar",
+    },
+    certificates: {
+      title: "Certificados de Segurança",
+      descPre: "A liquidez da BRIC$TORM foi oficialmente",
+      descBold1: "bloqueada via Mudra",
+      descMid: "até",
+      descBold2: "10 de julho de 2026",
+      descPost: "A transparência é prioridade.",
+      liquidityLabel: "Certificado de Liquidez",
+      liquidityText: "Ver Certificado",
+      txLabel: "Hash da transação (30% público)",
+      tokenContractLabel: "Contrato do Token",
+      liquidityContractLabel: "Contrato da Liquidez",
+      whitepaperLabel: "Whitepaper",
+      whitepaperText: "Baixar Whitepaper (PDF)",
+    },
+  },
+
+  en: {
+    nav: {
+      home: "Home",
+      token: "Token",
+      about: "About",
+      roadmap: "Roadmap",
+      community: "Community",
+    },
+    hero: {
+      badge: "Multipolar Resistance · BSC & Solana",
+      title1: "THE OLD SYSTEM",
+      title2: "IS SHAKING",
+      subtitle1: "THE BRIC$TORM",
+      subtitle2: "HAS ARRIVED",
+      description:
+        "Multipolar resistance. The financial revolution that breaks the barriers of the traditional system. Join the storm that's transforming the world of meme cryptocurrencies.",
+      ctaBuy: "BUY NOW",
+      ctaChart: "VIEW CHART",
+    },
+    why: {
+      title: "WHY BRIC$TORM?",
+      description:
+        "Because it's not just a meme token — it's the symbol of multipolar resistance. A roar against the controlled financial system. A BRICS revolution toward decentralization.",
+    },
+    tokenSpecs: {
+      title: "Token Specifications",
+      subtitle:
+        "Learn the technical and economic details of the BRICS token, designed to revolutionize the global financial system",
+      supplyTitle: "Total Supply",
+      supplyDesc: "BRICS tokens in circulation",
+      taxTitle: "Transaction Tax",
+      taxDesc: "Redirected to social impact projects.",
+      chainTitle: "Blockchain",
+      chainDesc: "Binance Smart Chain",
+      communityTitle: "Community",
+      communityDesc: "BRIC$TORM",
+      contractTitle: "Smart Contract",
+      contractDesc: "Token verified on Binance Smart Chain with full transparency",
+      buyPancake: "Buy on PancakeSwap",
+      viewBscscan: "View on BSCScan",
+    },
+    roadmap: {
+      title: "Roadmap",
+      subtitle:
+        "Our strategic plan to revolutionize the global financial system through the union of BRICS countries",
+      phases: [
+        {
+          phase: "Phase 1",
+          title: "Launch",
+          status: "completed",
+          items: [
+            "BRICS token creation",
+            "Deploy on Binance Smart Chain",
+            "Contract verification",
+            "PancakeSwap listing",
+          ],
+        },
+        {
+          phase: "Phase 2",
+          title: "Expansion",
+          status: "in-progress",
+          items: [
+            "Marketing across BRICS countries",
+            "Strategic partnerships",
+            "Security audit",
+            "Community growth",
+          ],
+        },
+        {
+          phase: "Phase 3",
+          title: "Consolidation",
+          status: "planned",
+          items: [
+            "Listing on larger exchanges",
+            "Mobile app",
+            "Staking and rewards",
+            "Decentralized governance",
+          ],
+        },
+        {
+          phase: "Phase 4",
+          title: "Revolution",
+          status: "planned",
+          items: [
+            "Cross-chain bridge",
+            "International payments",
+            "Integration with BRICS banks",
+            "Complete DeFi ecosystem",
+          ],
+        },
+      ],
+      journeyTitle: "The Revolution's Journey",
+      journeyDesc:
+        "Each phase represents an important step in building the new multipolar financial system. We're currently in Phase 2, expanding our presence in the crypto world.",
+      cta: "Join the Revolution",
+    },
+    community: {
+      title: "Community",
+      subtitle:
+        "Join our global community and be part of the financial revolution that's transforming the world",
+      social: {
+        twitter: "Follow us for real-time updates",
+        telegram: "Join our global community",
+        youtube: "Join the community discussions",
+        tiktok: "Share ideas and news",
+      },
+      stats: {
+        membersLabel: "Community Members",
+        membersDesc: "Growing daily",
+        countriesLabel: "BRICS Countries",
+        countriesDesc: "United by the revolution",
+        supportLabel: "Active Support",
+        supportDesc: "Community always online",
+        transparencyLabel: "Transparency",
+        transparencyDesc: "Everything is public",
+      },
+      ctaTitle: "Be Part of the Revolution",
+      ctaDesc:
+        "The multipolar financial revolution needs you. Join our community and help build the future of the global financial system.",
+      ctaTelegram: "Join Telegram",
+      ctaBuyBsc: "Buy BRIC$TORM on BSC",
+      ctaBuySolana: "Buy BRIC$TORM on SOLANA",
+    },
+    footer: {
+      description:
+        "The multipolar financial revolution that's transforming the global economic system through the union of BRICS countries.",
+      quickLinksTitle: "Quick Links",
+      contractTitle: "Contract",
+      addressLabel: "Address:",
+      blockchainLabel: "Blockchain:",
+      rights: "All rights reserved.",
+      madeWith: "Made with ❤️ for the multipolar revolution",
+    },
+    certificates: {
+      title: "Security Certificates",
+      descPre: "BRIC$TORM liquidity was officially",
+      descBold1: "locked via Mudra",
+      descMid: "until",
+      descBold2: "July 10, 2026",
+      descPost: "Transparency is a priority.",
+      liquidityLabel: "Liquidity Certificate",
+      liquidityText: "View Certificate",
+      txLabel: "Transaction hash (30% public)",
+      tokenContractLabel: "Token Contract",
+      liquidityContractLabel: "Liquidity Contract",
+      whitepaperLabel: "Whitepaper",
+      whitepaperText: "Download Whitepaper (PDF)",
+    },
+  },
+};
